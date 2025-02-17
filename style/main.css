@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("https://i.ytimg.com/vi/cc1NxmWARmA/maxresdefault.jpg");
+    background-size: contain;
+    background-clip: border-box;
+    background-position:left;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 10px black;
+}
+
+header .titleText{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    transition: .5s;
+}
+
+header .titleText:hover{
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 25px;
+    color: black;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+main{
+    margin-top: 90px;
+}
+
+.logos{
+    display: flex;
+    width: 100%;
+}
+.logos img{
+    width: 80px;
+    height: 80px;
+}
+.logos h1{
+    margin-left: 20px;
+    align-content: center;
+}
+.containeer{
+    margin: 0 20%;
+    padding: 2%;
+    background-color: white;
+}
+.head-doklad{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.photo{
+    width: 100%;
+    margin-top: 30px;
+}
+.files{
+    display: flex;
+    align-items: center;
+}
+.files a{
+    color: black;
+}
+
+.footer-doklad{
+    margin-top: 25px;
+}
+
+.img{
+    width: 50px;
+    margin-right: 5px;
+}
+
+.containeer h2, h3{
+    margin: 15px;
+    text-align: center;
+}
+
+#question{
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+form{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.forma{
+    margin-bottom: 100px;
+}
+input[type=submit]{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+input[type=submit]:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.messages{
+    margin-top: 20px;
+}
+
+.anonimys{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 3px;
+}
+.expert{
+    width: 90%;
+    float: right;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 3px;
+}
